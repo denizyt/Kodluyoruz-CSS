@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* header */
+    header{
+        width: 100%;
+       
+    }
+    .googleimg{
+        display: block;
+        margin: 0 auto;  
+    }
+    /* search bar */
+    .section-one{
+        width: 85%;
+        background-color: #EEEEEE;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: .3em;
+    }
+    p{
+        margin: 0;
+    }
+    .searchinput{
+        margin:0;
+        width: 330px;
+    }
+    .searchinput1:hover{
+        box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+    
+    /* footer */
+    .container{
+        display: flex;
+        width: 85%;
+        margin: 0 auto;
+        gap: .3em;
+        margin-top: .3em;
+    }
+    .box{
+        height: auto;
+        flex: 1;
+        background-color: #7EE5DA;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: .6em 0;
+    }
+    .box1{
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .box h2, .box ul{
+        margin: 0;
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+    .box2{
+        flex: 1.4;
+    }
+    .box2 a{
+        font-size: 13px;
+    }
+    .box3{
+        flex: 2;
+    }
+    .margin1
+    {
+        margin-left: .3em;
+    }
+    .center{
+        text-align: center;
+        margin-top: 1em;
+    }
+</style>
+<body>
+    <!-- Start Head -->
+    <header>
+        <img class="googleimg" src="img/google (1).jpg" alt="">
+    </header>
+    <!-- End Head -->
+    <!-- Start search bar -->
+    <section class="section-one">
+        <div class="search">
+            <p>Search the web using Google!</p>
+            <input type="text" class="searchinput">
+            <br>
+            <button class="google searchinput1">Google Search</button>
+            <button class="feeling searchinput1">I'm feeling lucky</button>
+        </div>
+    </section>
+    <!-- End Search bar -->
+    <!-- Start Footer -->
+    <div class="container">
+        <div class="box1 box">
+            <p>Special Searches</p>
+            <ul>
+                <li><a href="#">Stanford Search</a></li>
+                <li><a href="#">Linux Search</a></li>
+            </ul>
+        </div>
+        <div class="box2 box">
+            <ul>
+                <li><a href="#">Help!</a></li>
+                <li><a href="#">About Google</a></li>
+                <li><a href="#">Company Info</a></li>
+                <li><a href="#">Google! Logos</a></li>
+            </ul>
+        </div>
+        <div class="box3 box">
+            <ul>
+                <li>Get Google!</li>
+                <li>updates monthly:</li>
+                <li><input type="text" placeholder="your e-mail"></li>
+            </ul>
+            <div>
+            <button type="submit">Subscribe </button>
+            <a href="#" class="margin1">Arcihve</a>
+            </div>
+        </div>
+    </div>
+    <p class="center">Copyright ©1998 Google Inc.</p>
+    <!-- End Footer -->
+</body>
+</html>
